@@ -1,8 +1,7 @@
-.borda_itens{   
-    border: 1px rgb(83, 83, 88);
-    margin-bottom: 10px;
-    padding: 10px;
-    border-radius: 4px;
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    align-items: center;
 }
 
 .borda_interna{
@@ -10,21 +9,21 @@
     border-style: solid;
     border-color: rgb(83, 83, 88);
     padding: 8px;
-    display: grid;
-}
-
-.wrapper {
-    display: grid;
-    grid-template-columns: 1fr 6fr 1fr;
+    
 }
 
 .cadastro {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    
+    align-items: start
 }
 
 .externo_cadastro {
     display: grid;
-    grid-column-gap: 20px;
+    grid-column-gap: 10px;
+}
+
+.imagens {
+    width: 70%;
+    height: auto;
 }
