@@ -1,5 +1,4 @@
-.borda_itens{
-    background-color: rgba(122, 120, 118, 0.281);
+.borda_itens{   
     border: 1px rgb(83, 83, 88);
     margin-bottom: 10px;
     padding: 10px;
@@ -17,4 +16,15 @@
 .wrapper {
     display: grid;
     grid-template-columns: 1fr 6fr 1fr;
+}
+
+.cadastro {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+.externo_cadastro {
+    display: grid;
+    grid-column-gap: 20px;
 }
