@@ -1,6 +1,7 @@
 .wrapper {
     display: grid;
     grid-template-columns: 1fr 7fr 1fr;
+    margin-bottom: 30px;
 }
 
 .borda_interna{
@@ -27,12 +28,6 @@
     display: grid;
 }
 
-.imagens {
-    width: 318px;
-    height: auto;
-    margin-left: 0px;
-}
-
 .imagem_central{
     width: 1000px;
     height: auto;
@@ -41,10 +36,15 @@
     margin-right: auto;
 }
 
+.imagens {
+    width: 318px;
+    height: auto;
+    margin-left: 0px;
+}
+
 #logo {
     width: 60%;
     height: auto;
-    margin-left: 450px;
     display: block;
 }
 
