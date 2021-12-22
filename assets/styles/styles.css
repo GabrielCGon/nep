@@ -1,46 +1,68 @@
 .wrapper {
     display: grid;
-    grid-template-columns: 2fr 10fr 2fr;
+    grid-template-columns: 1fr 7fr 1fr;
 }
 
 .borda_interna{
     border-width: 1px;
     border-style: solid;
-    border-color: rgb(83, 83, 88);
-    padding: 6px;
-
+    border-color: rgb(166, 166, 182);
+    padding: 10px;
+    display: grid;
 }
 
 .cadastro {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 2fr 2fr 2fr;
     grid-column-gap: 20px;
+    width: 1000px;
+    height: auto;
+    margin-left: 250px;
 }
 
 .externo_cadastro {
-    display: grid;
     border-style: solid;
-    border-color: rgb(83, 83, 88);
+    border-color: rgb(166, 166, 182);
     border-width: 1px;
+    display: grid;
 }
 
 .imagens {
-    width: 75%;
+    width: 318px;
     height: auto;
-    margin-left: 10px;
-    display: grid;
+    margin-left: 0px;
 }
 
 .imagem_central{
-    width: 70%;
+    width: 1000px;
     height: auto;
-    display: block;
-    margin-left: auto;
+   display: block;
+    margin-left: 250px;
     margin-right: auto;
 }
 
 #logo {
-    width: 90%;
+    width: 60%;
     height: auto;
-    margin-left: 250px;
-}   
+    margin-left: 450px;
+    display: block;
+}
+
+a {
+    font-family:'Times New Roman', Times, serif;
+    font-size: small;
+    color: rgb(48, 48, 53);
+    font-weight: bold;
+}
+
+h4 {
+   font-family: genera -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-size: medium;
+   text-align: left;
+   margin-left: 10px;
+}
+
+p{
+    text-align: left;
+    margin-left: 10px;
+}
