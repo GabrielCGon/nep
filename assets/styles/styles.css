@@ -1,29 +1,46 @@
 .wrapper {
     display: grid;
-    grid-template-columns: 1fr 4fr 1fr;
-    align-items: center;
+    grid-template-columns: 2fr 10fr 2fr;
 }
 
 .borda_interna{
     border-width: 1px;
     border-style: solid;
     border-color: rgb(83, 83, 88);
-    padding: 8px;
-    
+    padding: 6px;
+
 }
 
 .cadastro {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    align-items: start
+    grid-column-gap: 20px;
 }
 
 .externo_cadastro {
     display: grid;
-    grid-column-gap: 10px;
+    border-style: solid;
+    border-color: rgb(83, 83, 88);
+    border-width: 1px;
 }
 
 .imagens {
+    width: 75%;
+    height: auto;
+    margin-left: 10px;
+    display: grid;
+}
+
+.imagem_central{
     width: 70%;
     height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+#logo {
+    width: 90%;
+    height: auto;
+    margin-left: 250px;
+}   
