@@ -44,11 +44,10 @@
 }
 
 #logo {
-    width: 300px;
+    width: 230px;
     height: auto;
     padding-top: 20px;
-    padding-left: 60px;
-    vertical-align: middle;
+    padding-left: 80px;
 }
 
 a {
@@ -72,14 +71,31 @@ h4 {
 .linha {
     display: grid;
     grid-template-columns:1fr 1fr 1fr 1fr 1fr;
-    margin-left: 150px;
+    margin-left: 170px;
+    padding-top: 15px;
 }
 
 .cabecario{
-    border-left: 3px solid #4551bd;
-    margin-bottom: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-    font-size: medium;
+    border-left: 3px solid rgb(0, 120, 167);
+    margin-bottom: 1px;
+    padding-left: 8px;
+    padding-right: 1px;
+    font-size: small;
     font-weight: bold;
+    width: 130px;
+    height: 50px;
+}
+
+#icones{
+    margin-left: 250px;
+    border-bottom: 1px solid gray;
+    margin-right: 635px;
+}
+
+#formulario{
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    padding: 4px 4px;
+    margin-left: 670px;
 }
