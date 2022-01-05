@@ -88,7 +88,7 @@ h4 {
 
 #icones{
     margin-left: 250px;
-    border-bottom: 1px solid gray;
+        
     margin-right: 635px;
 }
 
@@ -98,4 +98,40 @@ h4 {
     border-width: 1px;
     padding: 4px 4px;
     margin-left: 670px;
+}
+
+/* Inicio do css referente ao login */
+
+.centro{
+    position: absolute;
+    width: 15%;
+    height: auto;
+    left: 40%;
+    top: 20%;
+    border: 1px solid black;
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-top: 59px;
+    padding-bottom: 10%;
+    
+}
+
+.dados{
+    border-style: none;
+    border-bottom: 1px solid black;
+    width: 100%;
+    display: grid;
+    margin-bottom: 10px;
+}
+
+.alinhamento_logo{
+    margin-left: 10%;
+    width: 80%;
+    height: auto;
+}
+
+form{
+    font-family: sans-serif;
+    font-size: medium;
+    color: #2F3783;
 }
