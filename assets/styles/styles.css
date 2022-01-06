@@ -104,23 +104,24 @@ h4 {
 
 .centro{
     position: absolute;
-    width: 15%;
+    width: 16%;
     height: auto;
     left: 40%;
     top: 20%;
-    border: 1px solid black;
-    padding-left: 75px;
-    padding-right: 75px;
+    border: 1px solid gdray;
+    padding-left: 30px;
+    padding-right: 30px;
     padding-top: 59px;
-    padding-bottom: 10%;
-    
+    padding-bottom: 2%;
+    border-style: hidden;
+    background-color: white;
+    box-shadow: 1px 1px 17px 1px grey;
 }
 
 .dados{
     border-style: none;
-    border-bottom: 1px solid black;
-    width: 100%;
-    display: grid;
+    border-bottom: 1px solid #B7B7B7;
+    width: 97%;
     margin-bottom: 10px;
 }
 
@@ -128,10 +129,56 @@ h4 {
     margin-left: 10%;
     width: 80%;
     height: auto;
+    margin-bottom: 10%;
+    margin-top: -3%;
 }
 
 form{
-    font-family: sans-serif;
+    font-family: 'Maven Pro', sans-serif;
     font-size: medium;
     color: #2F3783;
+}
+
+.botao_login {
+    background-color: #2F3783;
+    border-radius: 4px;
+    color: white;
+    padding: 10px 50px;
+    text-align: center;
+    font-size: 12px;
+    margin: 6px 2px;
+    margin-left: 16px;
+    border: 1px solid rgba(4, 0, 240, 0.678);
+    cursor: pointer;
+    font-weight: bold;
+    font-family: 'Maven Pro', sans-serif;
+  }
+
+  .aviso{
+    background-color: #D2FBE3;
+    border-radius: 4px;
+    color: #2F3783;
+    padding: 10px 58px;
+    text-align: center;
+    font-size: 15px;
+    margin: 6px 2px;
+    border-color: white;
+    border: 1px solid #D2FBE3;
+    font-family: 'Maven Pro', sans-serif;
+  }
+
+  body{
+      background-image:url(/assets/icons/images/Background.png);
+      background-repeat: no-repeat;
+      background-position: right top;
+      background-attachment: fixed;
+  }
+
+.recuperar_senha{
+    position: absolute;
+    left: 46%;
+    top: 70%;
+    color: #2F3783;
+
+
 }
