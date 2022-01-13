@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
 }
+.topo{      
+    background-color: #0078A7;
+    height: 70px;
+}
 
 body{
     background-color: #f0f0f0;
@@ -10,31 +14,40 @@ body{
 .barra{
     background-color: #333;
     height: 100%;
-    width: 300px;
+    width: 280px;
     position: absolute;
+    padding-left: 1%;
+    padding-top: 87px;
+    
+    
 }
-
-.centro{
-
-}
-
-#check{
-    display: none;
-}
-
-#icone{
-    cursor: pointer;
-    padding: 15px;
-    position: absolute;
-    z-index: 1;
-}
-
-nav{
-    width: 100%;
-    position: absolute;
-    top:60px;
-}
-
-nav a{
+a{
     text-decoration: none;
+    font-weight: bold;
+    font-size: 90%;
+    
+}
+
+.logo{
+ padding-left: 7.4%;
+ padding-top: 6px;
+ padding-bottom: 3px;
+}
+
+.opcoes{
+    padding-top: 23px;
+    padding-bottom: 23px;
+    padding-left: 25px;
+}
+
+
+.link{
+    color: white;
+    font-family: 'Maven Pro', sans-serif;
+    padding-top: 10px; 
+
+}
+
+.imagem_{
+    padding-left: 2px;
 }
