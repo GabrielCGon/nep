@@ -14,24 +14,78 @@
             </div>
             
         <div class="barra">
-
                 <a href=""><div class="link"> <img src="./assets/icons/images/Vector (1).png"  > PROFESSORES/SUPERVISORES</div></a>
                 <a href=""><div class="link"> <img src="./assets/icons/images/Vector (2).png" class="imagem_"> ACADÊMICOS</div></a>
                 <a href=""><div class="link"> <img src="./assets/icons/images/Vector (3).png" > REGISTRAR PLANO DE ESTÁGIO</div></a>
         </div>
 
-        <h4 class="estilo_academico">ACADÊMICO</h4> 
-            <button class="salvar">SALVAR</button>
-        <input type="text" name="Nome" placeholder="Nome" class="formulario">
-        <input type="date" name="Data" placeholder="DATA DE NASCIMENTO" id="data" class="formularioR">
-            <p>SEXO</p>
-        <input type="radio" name="Sexo" id="sexo">
-            
-        <input type="email" name="Email" placeholder="Email" id="email" class="formularioR">
-                    
-        <input type="name" name="CPF" placeholder="CPF" id="CPF" class="formularioR">
+            <h4 class="estilo_academico">ACADÊMICO</h4> 
+                <button class="salvar">SALVAR</button>
 
+        <input type="text" name="Nome" placeholder="Nome" class="formulario">
+            <input type="date" name="Data" placeholder="DATA DE NASCIMENTO" id="data" class="formularioR">
+            
+            <p>SEXO</p>
+            
+            <form action="">    
+                
+                <div id="Fem">
+                    <input type="radio" id="Sexo" name="Sexo" value="Fem">
+                        <label for="html">Fem</label><br>
+                </div>
+                
+                <div id="Masc">
+                    <input type="radio" id="Sexo" name="Sexo" value="Masc">
+                        <label for="html">Masc</label><br>
+                </div>
+            </form>
+                  
+        <input type="email" name="Email" placeholder="Email" id="email" class="formularioR">           
+            <input type="name" name="CPF" placeholder="CPF" id="cpf" class="formularioR">
+
+            <div id="Estado_C">
+                <select id="estado_civil" name="Estado_C">
+                <option value="" disabled selected >ESTADO CIVIL</option>
+                  <option value="">Solteiro</option>
+                  <option value="">Casado</option>
+                  <option value="">Separado</option>
+                  <option value="">Viúvo</option> 
+                </select>              
+            </div>
+
+        <form action="">
+                <input type="name" name="RG" placeholder="RG" id="rg" class="formularioL">
+                <input type="text" name=CEP placeholder="CEP" id=cep class="formularioL">
+                <input type="text" name="Numero" placeholder="NÚMERO" id="numero" class="formularioL">
+                <input type="text" name="Cidade" placeholder="CIDADE" id="cidade" class="formularioL">
+        </form>
+
+        <form action="">
+
+                <input type="text" name="Fone" placeholder="FONE CELULAR" id="fone" class="formularioR">
+                <input type="text" name="Endereco" placeholder="ENDEREÇO" id="endereco" class="formularioR">
+                <input type="text" name="Bairro" placeholder="BAIRRO" id="bairro" class="formularioR">
+
+        </form>
+
+        <div id="Estado">
+            <select id="Estado_br" name="Estado">
+            <option value="" disabled selected >ESTADO</option>
+              <option value="">Mato Grosso do Sul</option>
+              <option value=""> Ceará </option>
+              <option value=""> Bahia </option>
+              <option value=""> Amazonas </option> 
+            </select>              
+        </div>
+
+        
+        <div>
+            <h3>Dados Acadêmicos</h3>
 
         </div>
+    
+    
+    
+    </dive>
     </body>
 </html>
