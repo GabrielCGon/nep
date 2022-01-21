@@ -46,10 +46,10 @@
             <div id="Estado_C">
                 <select id="estado_civil" name="Estado_C">
                 <option value="" disabled selected >ESTADO CIVIL</option>
-                  <option value="">Solteiro</option>
-                  <option value="">Casado</option>
-                  <option value="">Separado</option>
-                  <option value="">Viúvo</option> 
+                  <option value="">Solteiro(a)</option>
+                  <option value="">Casado(a)</option>
+                  <option value="">Separado(a)</option>
+                  <option value="">Viúvo(a)</option> 
                 </select>              
             </div>
 
@@ -79,11 +79,50 @@
         </div>
 
         
-        <div>
+        <div id="baixo">
             <h3>Dados Acadêmicos</h3>
+        </div>
+    
+        <div>
+
+            <input type="text" name="Curso" placeholder="CURSO" id="curso" class="formulario_baixo">
+            <input type="text" name="Disciplina" placeholder="DISCIPLINA" id="disciplina" class="formulario_baixo">
+            <input type="text" name="Semestre" placeholder="SEMESTRE" id="semestre" class="formulario_baixo">
+            <input type="text" name="Instituicao" placeholder="INSTITUIÇÃO" id="instituicao" class="formulario_baixo">
 
         </div>
     
+        <div id="estagio_posicao">
+            <select id="tempo_estagio" name="Estagio">
+                <option value="" disabled selected >PERÍODO DO ESTÁGIO</option>
+                <option value=""> 1 Semestre </option>
+                <option value=""> 2 Semestres </option>
+                <option value=""> 3 Semestres </option>
+                <option value=""> 4 Semestres </option>
+            </select>    
+        </div>
+            
+        
+            
+            
+        <div>
+            <form action="" id="periodo_posicao">Periodo:</form>
+            
+            <label class="periodo_mat">
+                <input type="checkbox" value=""> Mat.
+            </label>
+
+            <label id="periodo_vesp">
+                <input type="checkbox" value=""> Vesp.
+            </label>
+
+            <label id="periodo_not">
+                <input type="checkbox" value=""> Not.
+            </label>
+
+            </form>
+        </div>
+
     
     
     </dive>

@@ -82,6 +82,7 @@ a{
     border-style: none;
     border-bottom: 1px solid black;    
 }
+
 .formularioR{
     position: absolute; 
     left: 1114px;
@@ -154,14 +155,15 @@ p{
     position: absolute;
     top: 419px;
     left: 351px;
+    width: 403px;
+    border-bottom: 1px solid black;
 }
 
 
 #estado_civil{
     border-style: none;
     background: none;
-    border-bottom: 1px solid black;
-    width: 403px;
+    width: 425px;
 }
 
 .formularioL{
@@ -170,7 +172,6 @@ p{
     width: 427px;
     border-style: none;
     border-bottom: 1px solid black;  
-    
 }
 
 #rg{   
@@ -216,4 +217,92 @@ p{
     background: none;
     border-bottom: 1px solid black;
     width: 403px;
-}   
+}
+
+#baixo{
+    position: absolute;
+    border-bottom: 1px solid black;
+    font-weight: 400    ;
+    width: 1200px;
+    top: 860px;
+    left: 345px;
+    font-family: roboto;
+}
+
+/* LOCALIZAÇÃO DOS INPUTS DE BAIXO DA PAG */
+
+#curso{
+    position: absolute;
+    top: 942px;
+    left: 345px;
+}
+
+#disciplina{
+    position: absolute;
+    top: 942px;
+    left: 803px;
+
+}
+
+#semestre{
+    position: absolute;
+    top: 942px;
+    left: 1262px;
+    
+}
+
+#instituicao{
+    position: absolute;
+    top: 1005px;
+    left: 806px;
+}
+
+.formulario_baixo{
+    width: 283px;
+    border-style: none;
+    border-bottom: 1px solid black;  
+}
+
+#estagio_posicao{
+    position: absolute;
+    top: 1005px;
+    left: 348px;
+}
+
+#tempo_estagio{
+    border-style: none;
+    background: none;
+    border-bottom: 1px solid black;
+    width: 256px;
+}
+
+#periodo_posicao{  
+    position: absolute;
+    top: 1005px;
+    left: 1261px;
+    font-family: roboto;
+    font-weight: 400;
+
+}
+
+.periodo_mat{
+    position: absolute;
+    top: 1005px;
+    left: 1338px;   
+    color:  #00000099;
+}
+
+#periodo_vesp{
+    position: absolute;
+    top: 1005px;
+    left: 1409px;   
+    color:  #00000099;
+}
+
+#periodo_not{
+    position: absolute;
+    top: 1005px;
+    left: 1485px;
+    color:  #00000099;  
+}
+
